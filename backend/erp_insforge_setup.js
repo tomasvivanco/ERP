@@ -1,9 +1,5 @@
 /**
- * ERP Constructora Chile — InsForge Backend Setup v2
- * Ejecutar: node erp_insforge_setup.js
- * API: POST /api/database/tables  (InsForge native API)
+ * El script completo de creación de tablas está en la raíz del repo:
+ *   ../erp_insforge_setup.js
+ * Ejecutar desde la raíz: INSFORGE_BASE_URL=... INSFORGE_API_KEY=... node erp_insforge_setup.js
  */
-
-const BASE_URL = 'https://ik8crkqg.us-east.insforge.app';
-const API_KEY  = 'ik_75d8a4cba0a72982f74b21e683ac40f5';
-const HEADERS  = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${API_KEY}` };
